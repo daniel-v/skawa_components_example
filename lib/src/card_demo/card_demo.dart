@@ -1,5 +1,5 @@
-import 'package:angular2/core.dart';
-import 'package:angular2/src/common/directives/ng_if.dart';
+import 'package:angular/core.dart';
+import 'package:angular/src/common/directives/ng_if.dart';
 import 'package:skawa_components/src/components/card/card.dart';
 
 import 'package:angular_components/angular_components.dart';
@@ -10,7 +10,7 @@ import 'package:angular_components/angular_components.dart';
     directives: const [
       skawaCardDirectives,
       MaterialButtonComponent,
-      GlyphComponent,
+      MaterialIconComponent,
       NgIf,
     ],
     styles: const [

@@ -1,7 +1,7 @@
 import 'dart:html';
-import 'package:angular2/angular2.dart';
-import 'package:angular2/router.dart';
-import 'package:angular_components/src/components/glyph/glyph.dart';
+import 'package:angular/angular.dart';
+import 'package:angular_router/angular_router.dart';
+import 'package:angular_components/src/components/material_icon/material_icon.dart';
 import 'package:angular_components/src/components/material_button/material_button.dart';
 import 'package:skawa_components/src/components/appbar/appbar.dart';
 import 'package:skawa_components/src/components/card/card.dart';
@@ -14,7 +14,7 @@ import 'package:skawa_components_example/src/app_component.dart';
   directives: const [
     SkawaAppbarComponent,
     MaterialButtonComponent,
-    GlyphComponent,
+    MaterialIconComponent,
     skawaCardDirectives,
     ROUTER_DIRECTIVES,
     NgFor,

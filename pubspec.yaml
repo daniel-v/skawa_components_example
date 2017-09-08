@@ -1,16 +1,21 @@
 name: skawa_components_example
-version: 0.0.2
+version: 0.1.0
 
 dependencies:
-  angular2: ^3.1.0
-  angular_components: ^0.5.1
+  angular: ^4.0.0
+  angular_router: ^1.0.2
+  angular_components: ^0.6.0
   skawa_components:
     git:
       url: https://github.com/skawa-universe/skawa_components.git
-      ref: 0.0.5
+      ref: 0.1.0
   browser:
 dev_dependencies:
-  sass_builder: ^0.1.0
+  sass_builder: ^0.2.0
 transformers:
-- angular2:
+- angular:
     entry_points: web/main.dart
+- $dart2js:
+    commandLineOptions: ['--show-package-warnings']
+
+web_compiler: dartdevc

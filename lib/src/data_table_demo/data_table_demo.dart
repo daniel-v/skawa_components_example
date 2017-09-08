@@ -1,4 +1,4 @@
-import 'package:angular2/core.dart';
+import 'package:angular/core.dart';
 import 'package:skawa_components/src/components/data_table/data_table.dart';
 import 'package:skawa_components/src/components/data_table/data_table_column.dart';
 import 'package:skawa_components/src/components/data_table/row_data.dart';

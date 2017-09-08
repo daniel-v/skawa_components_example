@@ -1,5 +1,5 @@
-import 'package:angular2/core.dart';
-import 'package:angular2/src/common/directives/ng_if.dart';
+import 'package:angular/core.dart';
+import 'package:angular/src/common/directives/ng_if.dart';
 import 'package:skawa_components/src/components/card/card.dart';
 import 'package:skawa_components/src/components/grid/grid_component.dart';
 
@@ -13,7 +13,7 @@ import 'package:angular_components/angular_components.dart';
       GridTileDirective,
       skawaCardDirectives,
       MaterialButtonComponent,
-      GlyphComponent,
+      MaterialIconComponent,
       NgIf,
     ]
 )

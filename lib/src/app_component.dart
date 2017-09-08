@@ -1,6 +1,5 @@
-import 'package:angular2/angular2.dart';
-import 'package:angular2/platform/common.dart';
-import 'package:angular2/router.dart';
+import 'package:angular/angular.dart';
+import 'package:angular_router/angular_router.dart';
 import 'package:skawa_components_example/src/appbar_demo/appbar_demo.dart';
 import 'package:skawa_components_example/src/drawer_demo/drawer_demo.dart';
 import 'package:skawa_components_example/src/non_layout_examples/non_layout_demo.dart';

@@ -1,6 +1,6 @@
 import 'dart:html';
-import 'package:angular2/angular2.dart';
-import 'package:angular2/router.dart';
+import 'package:angular/angular.dart';
+import 'package:angular_router/angular_router.dart';
 import 'package:skawa_components_example/src/app_component.dart';
 import 'package:skawa_components_example/src/card_demo/card_demo.dart';
 import 'package:skawa_components_example/src/data_table_demo/data_table_demo.dart';
